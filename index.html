@@ -585,91 +585,79 @@ html.cmp .vp button{font-size:11px;padding:5px 9px}
 .legal2{display:flex;gap:8px;justify-content:center;font-size:12px;color:var(--mute);padding-top:2px}
 @media(max-width:820px){html.cmp .legal{font-size:10px}html.cmp .legal2{font-size:10.5px}}
 
-/* ===== YATO AI: bigger, comfortable phone UI (final override) ===== */
+/* ===== medium phone UI (original look) ===== */
 @media(max-width:820px){
-html.cmp body{line-height:1.55}
-html.cmp header{padding:10px 12px;gap:10px}
-html.cmp #menu,html.cmp #voice{width:46px;height:46px;min-height:46px;border-radius:50%}
-html.cmp #menu svg{width:24px;height:24px}
-html.cmp #voice::before{width:22px;height:22px}
-html.cmp .mt b{font-size:26px}
-html.cmp .mt span{font-size:14px}
-html.cmp #msgs{padding:16px 14px}
-html.cmp .wrap{gap:18px}
-html.cmp .m{gap:10px}
-html.cmp .av,html.cmp .m.a .av,html.cmp .av.pic,html.cmp .m.a .av.pic{width:34px;height:34px}
-html.cmp .m.a .av svg{width:20px;height:20px}
-html.cmp .bub{font-size:17px;line-height:1.6;padding:12px 16px;border-radius:22px;max-width:calc(100% - 46px)}
-html.cmp .m.a .bub{padding:3px 0}
-html.cmp .m.u .bub{max-width:90%;border-bottom-right-radius:8px}
-html.cmp .bub code{font-size:15px}
-html.cmp .pre pre{font-size:14px;padding:44px 14px 14px;border-radius:16px}
-html.cmp .pre .tb button{font-size:13px;padding:6px 12px;border-radius:10px}
-html.cmp .bub table{font-size:15px}html.cmp .bub th,html.cmp .bub td{padding:8px 12px}
-html.cmp .th img{width:76px;height:76px}
-html.cmp .acts{gap:8px;margin-top:10px}
-html.cmp .acts button,html.cmp .acts .sa{font-size:14px;padding:8px 14px;min-height:36px}
-html.cmp .fu button{font-size:15px;padding:9px 16px}
-html.cmp .hero{padding:2vh 0 3vh}
-html.cmp .hero .orb{width:84px;height:84px;margin-bottom:20px}
-html.cmp .hero .orb::after{inset:10px}
-html.cmp .hero h1{font-size:clamp(38px,11.5vw,52px);line-height:1.05}
-html.cmp .hero p{font-size:17px;margin-top:12px}
-html.cmp .sug{gap:12px;margin-top:26px}
-html.cmp .sug button{padding:16px;font-size:16px;line-height:1.4;border-radius:20px}
-html.cmp .sug button b{font-size:13px;margin-bottom:8px}
-html.cmp .comp{padding:8px 12px calc(12px + env(safe-area-inset-bottom,0px))}
-html.cmp .box{border-radius:30px}
-html.cmp .in{padding:7px 7px 7px 16px;border-radius:29px;gap:8px}
-html.cmp textarea{font-size:18px;padding:11px 0;line-height:1.4}
-html.cmp .ib{width:48px;height:48px}
-html.cmp .ib svg{width:23px;height:23px}
-html.cmp .down{width:46px;height:46px;bottom:128px;right:16px}
-html.cmp .btn{min-height:48px;font-size:16px;padding:11px 18px;border-radius:14px}
-html.cmp .chip,html.cmp .smodes .chip{font-size:16px;padding:12px 16px}
-html.cmp .smodes{gap:10px}
-html.cmp .smodes .chip{padding:15px 6px;border-radius:16px}
-html.cmp .sbox{padding:12px 18px calc(22px + env(safe-area-inset-bottom,0px))}
-html.cmp .sbox h4{font-size:13px;margin:14px 4px 10px}
-html.cmp .seg button{font-size:15px;padding:11px 14px}
-html.cmp .sbox .seg button{padding:13px}
-html.cmp .istyle button{font-size:14px;padding:9px 15px}
-html.cmp aside.glass{padding:18px 16px;gap:14px;width:min(88vw,340px)}
-html.cmp .brand{font-size:28px}
-html.cmp .orb{width:34px;height:34px}
-html.cmp .x{width:42px;height:42px}
-html.cmp .q{padding:13px 16px;font-size:17px;border-radius:14px}
-html.cmp .hist div{font-size:16px;padding:13px 14px;border-radius:14px}
-html.cmp .hist .gl{font-size:12.5px;padding:14px 14px 4px}
-html.cmp .hist .pb{font-size:13px}
-html.cmp .hist button{font-size:18px;padding:6px}
-html.cmp .sbtns{grid-template-columns:1fr;gap:10px}
-html.cmp .sbtns .btn{min-height:48px;font-size:16px;padding:11px 14px}
-html.cmp .usr{font-size:15px}html.cmp .usr .btn{min-height:40px;font-size:14px;padding:8px 14px}
-html.cmp .xp{font-size:13.5px}html.cmp .xp b{font-size:19px}html.cmp .bar{height:7px}
-html.cmp .sw{gap:14px}html.cmp .sw button{width:34px;height:34px}
-html.cmp .mod{padding:16px;border-radius:22px}
-html.cmp .mod h3{font-size:30px}
-html.cmp .mod p,html.cmp .lenrow{font-size:16px}
-html.cmp .mod input,html.cmp .mod textarea{font-size:17px}
-html.cmp .aubox{gap:12px}
-html.cmp .aubox .orb{width:76px;height:76px}
-html.cmp .aubox h2{font-size:38px}
-html.cmp .aubox p{font-size:16px}
-html.cmp .aubox input{padding:16px;font-size:17px;border-radius:14px}
-html.cmp #atabs button{font-size:16px;padding:12px}
-html.cmp .gfake{height:52px;font-size:16px;width:100%}html.cmp .gfake .gg{width:48px;height:48px}
-html.cmp .lnk{font-size:15px}html.cmp .aer{font-size:14px}
-html.cmp .vorb{width:min(60vw,240px);margin-bottom:26px}
-html.cmp #vst{font-size:32px}html.cmp #vtx{font-size:17px}
-html.cmp .vp button{font-size:15px;padding:10px 16px}
-html.cmp #vsel{font-size:16px;padding:12px 14px}
-html.cmp .ac,html.cmp .attc .ac{font-size:14px;padding:8px 12px}html.cmp .ac img{width:38px;height:38px}
-html.cmp #toast{font-size:15px;padding:11px 20px;bottom:130px}
-html.cmp .legal{font-size:12px}html.cmp .legal2{font-size:13px}
-html.cmp .mi{font-size:16px;padding:12px 14px}
+html.cmp body{line-height:1.5}
+html.cmp header{padding:7px 10px;gap:8px}
+html.cmp #menu,html.cmp #voice{width:38px;height:38px;min-height:38px;border-radius:50%}
+html.cmp #menu svg{width:19px;height:19px}
+html.cmp #voice::before{width:17px;height:17px}
+html.cmp .mt b{font-size:21px}html.cmp .mt span{font-size:12px}
+html.cmp #msgs{padding:12px 11px}
+html.cmp .wrap{gap:14px}
+html.cmp .m{gap:8px}
+html.cmp .av,html.cmp .m.a .av,html.cmp .av.pic,html.cmp .m.a .av.pic{width:28px;height:28px}
+html.cmp .bub{font-size:15px;line-height:1.55;padding:9px 13px;border-radius:18px;max-width:calc(100% - 38px)}
+html.cmp .m.a .bub{padding:2px 0}
+html.cmp .m.u .bub{max-width:88%}
+html.cmp .bub code{font-size:13px}
+html.cmp .pre pre{font-size:12.5px;padding:38px 12px 12px}
+html.cmp .pre .tb button{font-size:11.5px;padding:4px 10px}
+html.cmp .bub table{font-size:13.5px}html.cmp .bub th,html.cmp .bub td{padding:6px 10px}
+html.cmp .th img{width:60px;height:60px}
+html.cmp .acts{gap:6px;margin-top:8px}
+html.cmp .acts button,html.cmp .acts .sa{font-size:12.5px;padding:6px 12px}
+html.cmp .fu button{font-size:13px;padding:7px 13px}
+html.cmp .hero{padding:2vh 0 2vh}
+html.cmp .hero .orb{width:64px;height:64px;margin-bottom:14px}
+html.cmp .hero .orb::after{inset:8px}
+html.cmp .hero h1{font-size:clamp(30px,9vw,40px);line-height:1.05}
+html.cmp .hero p{font-size:14.5px;margin-top:10px}
+html.cmp .sug{gap:8px;margin-top:18px}
+html.cmp .sug button{padding:13px 14px;font-size:14px;line-height:1.4;border-radius:15px}
+html.cmp .sug button b{font-size:11px;margin-bottom:5px}
+html.cmp .comp{padding:6px 10px calc(9px + env(safe-area-inset-bottom,0px))}
+html.cmp .box{border-radius:26px}
+html.cmp .in{padding:5px 5px 5px 13px;border-radius:25px;gap:6px}
+html.cmp textarea{font-size:16px;padding:9px 0;line-height:1.4}
+html.cmp .ib{width:40px;height:40px}html.cmp .ib svg{width:19px;height:19px}
+html.cmp .down{width:38px;height:38px;bottom:108px;right:14px}
+html.cmp .btn{min-height:42px;font-size:14.5px;padding:9px 15px;border-radius:13px}
+html.cmp .chip,html.cmp .smodes .chip{font-size:14px;padding:10px 13px}
+html.cmp .smodes{gap:8px}html.cmp .smodes .chip{padding:12px 5px}
+html.cmp .sbox{padding:10px 16px calc(18px + env(safe-area-inset-bottom,0px))}
+html.cmp .sbox h4{font-size:12px;margin:12px 4px 8px}
+html.cmp .seg button{font-size:13.5px;padding:8px 12px}html.cmp .sbox .seg button{padding:10px}
+html.cmp .istyle button{font-size:12.5px;padding:7px 12px}
+/* sidebar: one item per line */
+html.cmp aside.glass{padding:12px 11px;gap:9px;width:min(78vw,272px)}
+html.cmp .brand{font-size:21px}html.cmp .orb{width:26px;height:26px}html.cmp .x{width:32px;height:32px}
+html.cmp .q{padding:9px 12px;font-size:14px;border-radius:12px;min-height:38px}
+html.cmp .hist div{font-size:13.5px;padding:9px 10px;border-radius:11px}
+html.cmp .hist .gl{font-size:10.5px;padding:10px 10px 2px}
+html.cmp .hist .pb{font-size:11px}html.cmp .hist button{font-size:15px;padding:4px}
+html.cmp .sbtns{display:flex;flex-direction:column;gap:6px}
+html.cmp .sbtns .btn{width:100%;min-height:38px;font-size:13.5px;padding:8px 12px;text-align:left}
+html.cmp .usr{font-size:13px}html.cmp .usr .btn{min-height:32px;font-size:12px;padding:5px 10px;width:auto}
+html.cmp .xp{font-size:11.5px}html.cmp .xp b{font-size:15px}html.cmp .bar{height:5px}
+html.cmp .sw{gap:10px}html.cmp .sw button{width:24px;height:24px}
+html.cmp .mod{padding:14px;border-radius:20px}html.cmp .mod h3{font-size:25px}
+html.cmp .mod p,html.cmp .lenrow{font-size:14.5px}html.cmp .mod input,html.cmp .mod textarea{font-size:16px}
+html.cmp .aubox{gap:10px}html.cmp .aubox .orb{width:62px;height:62px}
+html.cmp .aubox h2{font-size:32px}html.cmp .aubox p{font-size:14.5px}
+html.cmp .aubox input{padding:13px;font-size:16px;border-radius:12px}
+html.cmp #atabs button{font-size:14.5px;padding:10px}
+html.cmp .gfake{height:46px;font-size:14.5px}html.cmp .gfake .gg{width:42px;height:42px}
+html.cmp .lnk{font-size:14px}html.cmp .aer{font-size:13px}
+html.cmp .vorb{width:min(52vw,210px);margin-bottom:22px}
+html.cmp #vst{font-size:28px}html.cmp #vtx{font-size:15px}
+html.cmp .vp button{font-size:13.5px;padding:8px 14px}html.cmp #vsel{font-size:14.5px;padding:10px 12px}
+html.cmp .ac,html.cmp .attc .ac{font-size:13px;padding:6px 10px}html.cmp .ac img{width:32px;height:32px}
+html.cmp #toast{font-size:13.5px;padding:9px 16px;bottom:116px}
+html.cmp .legal{font-size:11px}html.cmp .legal2{font-size:12px}
+html.cmp .mi{font-size:14.5px;padding:10px 12px}
 }
-@media(max-width:360px){html.cmp .sug{grid-template-columns:1fr}html.cmp .bub{font-size:16px}}
+html:root .sug{grid-template-columns:1fr!important}
 </style>
 </head>
 <body>
@@ -801,7 +789,7 @@ function vspeak(t){if(!voiceOn)return;vset("speak",t.slice(0,180));speakText(t,v
 function voiceStart(){voiceOn=true;$("vo").hidden=false;vlisten()}
 function voiceEnd(){voiceOn=false;$("vo").hidden=true;try{if(vrec)vrec.abort()}catch(e){}stopSpeak();}
 $("voice").onclick=voiceStart;$("vend").onclick=voiceEnd;$("vmic").onclick=function(){if(vrec)vrec.stop();else vlisten()};
-var fz=(document.documentElement.classList.contains("cmp")&&innerWidth<=820)?16:16;try{fz=+localStorage.getItem("yato_fz")||fz}catch(e){}document.body.style.fontSize=fz+"px";
+var fz=(document.documentElement.classList.contains("cmp")&&innerWidth<=820)?14.5:16;try{fz=+localStorage.getItem("yato_fz")||fz}catch(e){}document.body.style.fontSize=fz+"px";
 function fs(d){fz=Math.max(13,Math.min(22,fz+d));document.body.style.fontSize=fz+"px";try{localStorage.setItem("yato_fz",fz)}catch(e){}}
 $("imp").onchange=async function(){var f=this.files[0];this.value="";if(!f)return;try{var d=JSON.parse(await f.text());if(Array.isArray(d)){chats=d.concat(chats.filter(function(c){return !d.some(function(x){return x.id===c.id})}));save();hist()}}catch(e){}};
 var PH=["Ask YATO AI anything...","Try /build a snake game","Try /logo for an anime channel","Try /studio for edit ideas","Try /share to get a link of this chat","Try /news for today's headlines","Try /animeinfo jujutsu kaisen","Try /caption for YouTube titles","Try /script for a reel script","Try /prompt to improve an image idea","Paste an image to ask about it","Try /photo a samurai in the rain"],pI=0;
@@ -919,7 +907,7 @@ try{var r=bigCalc(c),neg=r.n<0n,n=neg?-r.n:r.n,sg=neg?"-":"",out;
 if(r.d===1n){var s0=sg+String(n);out="**Result:**\n```\n"+showBig(s0)+"\n```"+(String(n).length>30?"\nThat is "+String(n).length+" digits long.":"")}
 else{var ip=n/r.d,fd=((n%r.d)*10n**40n)/r.d,fs=String(fd).padStart(40,"0").replace(/0+$/,"");out="**Result (40 decimal places):**\n```\n"+showBig(sg+String(ip))+"."+(fs||"0")+"\n```";if(String(r.n).length+String(r.d).length<120)out+="\n**Exact fraction:** "+sg+String(n)+" / "+String(r.d)}
 return out+"\n\nCalculated exactly by the built-in calculator."}catch(e){if(e===1)return"That calculation is too big for me to finish. Try a smaller power.";if(e===2)return"Division by zero is not possible.";return null}}
-function setUI(u){UIM=u;try{localStorage.setItem("yato_ui",u)}catch(e){}uiApply();document.querySelectorAll("#useg button").forEach(function(b){b.className=b.dataset.u===u?"on":""});var saved=null;try{saved=localStorage.getItem("yato_fz")}catch(e){}if(!saved){fz=(document.documentElement.classList.contains("cmp")&&innerWidth<=820)?16:16;document.body.style.fontSize=fz+"px"}}
+function setUI(u){UIM=u;try{localStorage.setItem("yato_ui",u)}catch(e){}uiApply();document.querySelectorAll("#useg button").forEach(function(b){b.className=b.dataset.u===u?"on":""});var saved=null;try{saved=localStorage.getItem("yato_fz")}catch(e){}if(!saved){fz=(document.documentElement.classList.contains("cmp")&&innerWidth<=820)?14.5:16;document.body.style.fontSize=fz+"px"}}
 document.querySelectorAll("#useg button").forEach(function(b){b.onclick=function(){setUI(b.dataset.u)}});setUI(UIM);
 var MOODS={joyful:"#ffd166",calm:"#7fb6c4",curious:"#a99cff",excited:"#ff7a59",caring:"#f08fb0",playful:"#5fe0a8",serious:"#9aa0b5",sad:"#6ea8ff"};
 var MOODTXT="";
